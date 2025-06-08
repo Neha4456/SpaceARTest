@@ -5,11 +5,12 @@
   <body style="margin: 0px; overflow: hidden">
     <a-scene embedded arjs>
       <a-marker preset="hiro">
-        <a-entity 
-          gltf-model="realistic_jupiter.glb" 
-          scale="0.02 0.02 0.02" 
-          position="0 0 0" 
-          rotation="0 45 0">
+        <a-entity rotation="-90 0 0">
+          <a-entity 
+            gltf-model="realistic_jupiter.glb" 
+            scale="0.02 0.02 0.02" 
+            position="0 0 0">
+          </a-entity>
         </a-entity>
       </a-marker>
       <a-entity camera></a-entity>
